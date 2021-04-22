@@ -1,14 +1,10 @@
----
-pagination:
- data: productos
- size: 1
- alias: producto
-permalink: "{{ producto.nombre | slug }}/"
----
+
 {% extends "layouts/default.njk" %}
 
 {% block content %}
 
-<img src="{{producto.imagen.url}}">
+
+
+
 
 {% endblock %}
