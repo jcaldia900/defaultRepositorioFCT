@@ -7,6 +7,10 @@ npm i -D ...
 npm i -D @tailwindcsss/jit
 anadir configuracion postcss.config.js
 ## git ignore
-Realizar un .gitignore con node_modules y el dist
+Realizar un .gitignore con node_module,dist y ds.store  
 ## para poder realizar consultas graphql en JS
 npm i node-fetch
+## para que pille el servidor los estilos de tailwind, hay que anadir en style.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

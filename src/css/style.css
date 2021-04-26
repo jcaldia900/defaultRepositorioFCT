@@ -1,4 +1,14 @@
-p{
-    background-color:blue;
-    text-decoration: blue;
-}
+@tailwind base;
+@tailwind components;
+
+
+
+
+
+
+
+
+
+
+
+@tailwind utilities;
